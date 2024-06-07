@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(1, 16, 34);
+  color: white;
+}
+.body-blue {
+  background-color: rgb(1, 16, 34);
+}
+.main-cont {
+  background-color: rgb(35, 55, 78);
+}
+.port-cont {
+  background-color: rgb(35, 55, 78);
+}
+.diff-blue {
+  color: rgb(142, 155, 255);
+}
+.rale {
+  font-family: "Raleway", sans-serif;
+}
+.brand {
+  font-family: "Josefin Sans", sans-serif;
+}
+.josef {
+  font-family: "Josefin Sans", sans-serif;
+}
+.currency {
+  background-color: rgb(40, 82, 114);
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: "Noto Sans", sans-serif;
+}
+.noto {
+  font-family: "Noto Sans", sans-serif;
+}
+.search-form {
+  background-color: rgb(1, 16, 34);
+  width: 100%;
+}
+input {
+  border: none;
+  outline: none;
+  color: white;
+}
+.search-form {
+  border-radius: 10px;
+}
+
+.search-form input::placeholder {
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+}
+.nav-item {
+  border-right: 1px solid rgb(98, 98, 98);
+  width: 100%;
+}
+.footer ul li {
+  list-style: none;
+}
+.graph {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+
+  /* background-color: aqua; */
+  overflow: hidden;
+}
+
+.card-body {
+  background-color: rgb(34, 48, 67);
+  color: white;
+}
+.cd-top {
+  background-color: rgb(61, 80, 107);
+}
+.cad {
+  width: 250px;
+  background-color: rgb(34, 48, 67);
+  overflow: hidden;
+  border-radius: 2%;
+  line-height: 30px;
+}
+.a {
+  text-decoration: none;
+  color: white;
+}
+.card {
+  outline: none;
+  border: none;
+}
+.green {
+  color: rgb(32, 255, 32);
+}
+.light-grey-blue {
+  background-color: rgb(34, 48, 67);
+}
+.mulish {
+  font-family: "Mulish", sans-serif;
+}
+.login {
+  background-color: transparent;
+  color: rgb(0, 181, 151);
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 6%;
+}
+.register {
+  background-color: rgb(0, 181, 151);
+  color: white;
+  width: 100px;
+  border-radius: 6%;
+  height: 30px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.nav-item {
+  height: 40px;
+}
+.cs-form {
+  background-color: transparent;
+  height: 50px;
+  color: white;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  width: 300px;
+  position: absolute;
+  border-radius: 0%;
+  transition: width 5s ease-in-out;
+  background-color: rgb(35, 55, 78);
+  box-shadow: rgb(0, 181, 151) 0px 5px 15px;
+
+  color: white;
+}
+.cs-form::placeholder {
+  color: rgb(161, 161, 161);
+  font-family: "Josefin Sans", sans-serif;
+}
+label {
+  font-family: "Raleway", sans-serif;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.cs-form:focus {
+  background-color: transparent;
+}
+input.cs-form:focus {
+  background-color: transparent;
+  outline: none; /* Remove the default outline */
+  border: 1px solid white; /* Remove any border on focus */
+  box-shadow: rgb(0, 181, 151) 0px 5px 15px;
+}
+.reg {
+  background-color: rgb(0, 181, 151);
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.forgotp {
+  background-color: transparent;
+
+  width: 150px;
+  height: 50px;
+  color: rgb(240, 0, 0);
+  font-family: "Josefin Sans", sans-serif;
+  border: 1px solid red;
+  outline: none;
+}
+.reg {
+  border: none;
+  outline: none;
+}
